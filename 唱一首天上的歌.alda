@@ -1,0 +1,42 @@
+(tempo! 120)
+
+midi-violin:
+    (vol 100)
+    # 生命的河，喜樂的河，緩緩流進我的心窩。
+    # V1: o4 b4 b8 b >f+2 | e4 e8 d8 <b2 | >d8 d d d e4 d8 e | f+2 r2 |
+
+    # 生命的河，喜樂的河，緩緩流進我的心窩。
+    # V1: o4 b4 b8 b >f+2 | e4 e8 d8 <b2 | >d8 d d d e f+ d c+ | <b2 r2 |
+
+piano:
+    (vol 75)
+    # ---前奏---
+
+    # ---主---
+    # 生命的河，喜樂的河，緩緩流進我的心窩。
+    V1: o5 f+8 <b >d <b >b <b >d <b | e b >e <b >f+ <b >d <b | r g >g <g r a >e r | r <a >d <a >f+ <a >e <a |
+    
+    # 生命的河，喜樂的河，緩緩流進我的心窩。
+    V1: o5 r <b >d <b >b <b >d <b | >g <b >e <b >f+ <b >d <b | g b >d <b r f+ a >c+ | <b2 r2 |
+
+    # ---副---
+    # 我要唱那一首歌，唱一首天上的歌。
+
+    # 頭上的烏雲，心裡的憂傷，全都灑落。
+    
+midi-electric-bass-finger:
+    (vol 100)
+    V2: o1 b4. b8 f+2  | e4. e8 b2 | g4. g8 a2 | >d4. d8 d2 |
+    V2: o1 b4. b8 f+2  | e4. e8 b2 | g4. g8 f+2 | b4. b8 b2 |
+
+midi-percussion:
+    (vol 45)
+    # bass and snare
+    # ---前奏---
+    
+    # ---主+副---
+    V1: o2 [c4 e8. c16 c8 c e4]*2 | [c4 e8. c16 c8 c e8 c8]*2 |
+    V1: o2 [c4 e8. c16 c8 c e4]*2 | [c4 e8. c16 c8 c e8 c8]*2 |
+    # ---副---
+    
+    
